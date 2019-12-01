@@ -3,3 +3,4 @@
 这是master分支的内容
 This is mergedemo content need commit
 version1
+version2
