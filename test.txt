@@ -4,3 +4,4 @@
 This is mergedemo content need commit
 version1
 version2
+version3
