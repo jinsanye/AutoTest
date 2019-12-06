@@ -43,6 +43,6 @@ public class GroupsOnMethod {
 
     @AfterGroups("client")
     public void afterGroupsOnClient(){
-        System.out.println("GroupsOnMethod.beforeGroupsOnClient这是客户端组运行后的方法！");
+        System.out.println("GroupsOnMethod.afterGroupsOnClient这是客户端组运行后的方法！");
     }
 }
