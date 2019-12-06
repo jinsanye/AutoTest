@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="classTest">
+
+    <test name="runAll">
+        <classes>
+            <class name="com.asiainfo.testng.groups.GroupsOnClass1"/>
+            <class name="com.asiainfo.testng.groups.GroupsOnClass2"/>
+            <class name="com.asiainfo.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+    <test name="runStu">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.asiainfo.testng.groups.GroupsOnClass1"/>
+            <class name="com.asiainfo.testng.groups.GroupsOnClass2"/>
+            <class name="com.asiainfo.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+</suite>
