@@ -6,11 +6,13 @@ public class BasicAnnotations  {
 
     @Test
     public void testCase1(){
+        System.out.printf("Basic Thread Id : %s%n",Thread.currentThread().getId());
         System.out.println("这是测试案例1");
     }
 
     @Test
     public void testCase2(){
+        System.out.printf("Basic Thread Id : %s%n",Thread.currentThread().getId());
         System.out.println("这是测试案例2");
     }
 
