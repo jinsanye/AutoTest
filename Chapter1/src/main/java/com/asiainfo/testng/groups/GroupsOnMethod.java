@@ -18,12 +18,12 @@ public class GroupsOnMethod {
 
     @Test(groups = "client")
     public void clientTest3(){
-        System.out.println("GroupsOnMethod.clientTest1这是客户端测试方法1111");
+        System.out.println("GroupsOnMethod.clientTest3这是客户端测试方法1111");
     }
 
     @Test(groups = "client")
     public void clientTest4(){
-        System.out.println("GroupsOnMethod.clientTest2这是客户端测试方法2222");
+        System.out.println("GroupsOnMethod.clientTest4这是客户端测试方法2222");
     }
 
     @BeforeGroups("server")
