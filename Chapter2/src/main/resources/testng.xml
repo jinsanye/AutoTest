@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="suite">
+
+    <test name="report">
+        <classes>
+            <class name="com.asiainfo.extend.demo.TestMethodsDemo"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+    </listeners>
+
+</suite>
