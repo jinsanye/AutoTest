@@ -9,7 +9,9 @@
     </test>
 
     <listeners>
-        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+<!--        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+<!--        <listener class-name="com.asiainfo.extend.demo.ExtentTestNGIReporterListenerOld"/>-->
+        <listener class-name="com.asiainfo.extend.demo.ExtentTestNGIReporterListener"/>
     </listeners>
 
 </suite>
